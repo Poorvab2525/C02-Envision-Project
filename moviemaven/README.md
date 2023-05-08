@@ -4,12 +4,14 @@ Moviemaven is an online platform that aims to provide movie fans with a user-fri
 
 Features
 
-Search for movies by title, actor, or director.
-Compare movie reviews and ratings side-by-side.
-Get detailed information about movies, including their plot summaries, cast, and release date.
-Filter search results by rating, genre, and release date.
-Create a watchlist of movies you want to see.
+1) Search for movies by title, actor, or director.
+2) Compare movie reviews and ratings side-by-side.
+3) Get detailed information about movies, including their plot summaries, cast, and release date.
+4) Filter search results by rating, genre, and release date.
+5) Create a watchlist of movies you want to see.
+
 Getting Started
+
 To get started with moviemaven, clone this repository to your local machine and navigate to the project directory. Then, run the following command to install the dependencies:
 
 
@@ -41,13 +43,7 @@ To add a movie to your watchlist, click the "Add to Watchlist" button on the mov
 Technologies Used:
 
 React
-Redux
-Redux-Saga
-Axios
-Material-UI
-Jest
-Enzyme
-Contributing
+
 If you want to contribute to the project, please feel free to submit a pull request or open an issue on GitHub. We welcome contributions from everyone!
 
 License
