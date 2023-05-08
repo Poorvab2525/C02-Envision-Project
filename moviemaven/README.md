@@ -1,25 +1,54 @@
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+MOVIEMAVEN
+Moviemaven is an online platform that aims to provide movie fans with a user-friendly and all-in-one destination for movie reviews, ratings, and information. The platform allows users to easily search, compare, and view movie reviews and ratings, making it easier to find the perfect movie to watch.
 
-## Available Scripts
+Features
 
-In the project directory, you can run:
+Search for movies by title, actor, or director.
+Compare movie reviews and ratings side-by-side.
+Get detailed information about movies, including their plot summaries, cast, and release date.
+Filter search results by rating, genre, and release date.
+Create a watchlist of movies you want to see.
+Getting Started
+To get started with moviemaven, clone this repository to your local machine and navigate to the project directory. Then, run the following command to install the dependencies:
 
-### `npm install`
 
-Installs all dependencies.
+npm install
 
-### `npm start`
+Once the dependencies have been installed, you can start the development server by running the following command:
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+npm start
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+This will start the application on http://localhost:3000, and you should see the moviemaven landing page.
 
-## Learn More
+Usage
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Search
+To search for a movie, enter the title, actor, or director in the search bar at the top of the page. The search feature is intelligent, and will provide suggestions as you type.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Compare
+To compare movies, click the "Compare" button on any movie card. This will add the movie to your comparison list, which will appear at the bottom of the page. You can compare up to four movies at a time.
+
+Movie Details
+To view more details about a movie, click on the movie card. This will take you to the movie details page, which provides more information about the movie, including its plot summary, cast, and release date.
+
+Filters
+To filter search results, click the "Filters" button on the search bar. This will allow you to filter by rating, genre, and release date.
+
+Watchlist
+To add a movie to your watchlist, click the "Add to Watchlist" button on the movie card. This will add the movie to your watchlist, which you can view by clicking the "Watchlist" button on the navigation bar.
+
+Technologies Used:
+
+React
+Redux
+Redux-Saga
+Axios
+Material-UI
+Jest
+Enzyme
+Contributing
+If you want to contribute to the project, please feel free to submit a pull request or open an issue on GitHub. We welcome contributions from everyone!
+
+License
+This project is licensed under the MIT License.
